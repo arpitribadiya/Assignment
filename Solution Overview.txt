@@ -1,0 +1,8 @@
+In the formatNumber() function, the input numbers are divided into four range:
+
+Numbers greater than or equal to 1 trillion (1T).
+Numbers greater than or equal to 1 billion (1B).
+Numbers greater than or equal to 1 million (1M).
+Numbers less than 1 million.
+
+Based on which range the given number falls into, it is passed along(it's divided value) with its corresponding suffix value to the truncateAndFormat() function. This function formats the given number, adds the appropriate suffix to it, and returns the formatted result.
